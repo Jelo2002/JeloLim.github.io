@@ -1,218 +1,45 @@
 <!DOCTYPE html>
 <html>
-<header>
-  <div class="header-content">
-
-    <a href="index.html" class="logo">J Lim</a>
-
-    <input type="checkbox" id="hamburger">
-    <label for="hamburger"><span></span></label>
-
-    <nav>
-      <ul class="menus">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About me</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<style>
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-}
-
-header {
-  position: relative;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.header-content {
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
-  color: black;
-}
-
-.logo {
-  text-decoration: none;
-  font-size: 30px;
-  color: black;
-  margin-right: 20px;
-}
-
-label {
-  padding: 23px 20px;
-  position: absolute;
-  cursor: pointer;
-  right: 0;
-  top: 0;
-}
-
-input[type="checkbox"] {
-  opacity: 0;
-  position: absolute;
-  right: 0;
-}
-
-label span {
-  width: 20px;
-  height: 3px;
-  display: block;
-  background: #4f3e3e;
-  position: relative;
-}
-
-label span::after, label span::before {
-  content: "";
-  position: absolute;
-  display: block;
-  background: inherit;
-  width: inherit;
-  height: inherit;
-}
-
-label span::before{
-  top: 8px;
-}
-
-label span::after {
-  bottom: 8px;
-}
-
-label::before {
-  position: absolute;
-  content: "";
-  width: 58px;
-  height: 49px;
-  top: 0;
-  right: 0;
-}
-
-input[type="checkbox"]:focus + label::before {
-  box-shadow: 0 0 20px black;
-}
-
-ul {
-  background: #f2f2f2;
-}
-
-ul li {
-   list-style: none;
-   font-size: 18px;
-}
-
-ul li button {
-    font-size: inherit;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    width: 100%;
-}
-
-ul li a {
-   display: block;
-   color: inherit;
-   text-decoration: none;
-}
-
-ul li a, ul li button {
-  padding: 0.7rem 1rem;
-  text-align: left;
-}
-
-.menus {
-  position: absolute;
-  top: 3.2rem;
-  left: 0;
-  right: 0;
-}
-
-.dropdown {
-  padding: 2px 1.5rem;
-}
-
-.menus {
-  /* ... */
-  /* hide dropdown on small screens */
-  visibility: hidden;
-}
-
-/* toggle main dropdown */
-
-input[type="checkbox"]:checked ~ nav > ul {
-  visibility: visible;
-}
-
-.dropdown {
-  /* ... */
-  height: 0;
-  overflow: hidden;
-}
-
-.salita {
-  max-width: auto;
-  margin: auto;
-  background: white;
-  padding: 10px;
-  text-align: center;
-}
-
-.button {
-  position: relative;
-  color: white;
-  border: none;
-  font-size: 18px;
-  color: black;
-  padding: auto;
-  width: auto;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.button:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
-}
-
-.button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}
-
-</style>
-
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body BGCOLOR="#d9dcda">
+<center>
+<nav>
+    <table border="3">
+        <tr>
+            <td><h3><a href="index.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\1.png"></a></h3></td>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\3.png"></a></h3></td>
+            <td><h3><a href="4.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\4.png"></a></h3></td>
+        </tr>
+    </table>
+</nav>
+<hr>
 <br>
 <br>
-
-<body class="salita">
-
-Ako ay Pilipino.<br>
-Buong tapang na lumalaban sa Pilipinas.<br>
-Ako ay Mabait na magaaral.<br>
-Wala na akong iba pang masabi. <br>
-
-<button class="button" onclick="document.location='index.html'">Home</button>
-
+<br>
+<h3>
+I am Jeremy Angelo M. Lim, Currently studying Network Administration at the University of Makati. I started to start freelancing in order to gain some income so I can have an allowance for college and also start my freelancing career. I have majority of skills that I can offer but I will focus on the list stated earlier. Thank you for giving me a chance in producing your project and I will do my best!
+</h3>
+<div>
+    <table border="3">
+        <tr>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\5.png"></h3></td>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\6.png"></h3></td>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\7.png"></h3></td>
+        </tr>
+		<tr>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\8.png"></h3></td>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\9.png"></h3></td>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\10.png"></h3></td>		
+		</tr>
+		<tr>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\11.png"></h3></td>
+            <td><h3><a href="4.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\4.png"></a></h3></td>
+            <td><h3><a href="3.html" target="_parent"><img src="C:\Users\Lenovo\Desktop\INTCOMP\img\12.png"></a></h3></td>	
+		</tr>
+    </table>
+</div>
+</center>
+</body>
 </html>
